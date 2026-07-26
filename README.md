@@ -1,4 +1,4 @@
-# 🧬 Smart Fitness Lab: AI-Powered Biometric Analysis
+#                               🧬 Smart Fitness Lab
 
 An end-to-end, full-stack machine learning web application that predicts physiological energy expenditure (calories burned) based on real-time biometric data and provides dynamic, goal-oriented recovery protocols.
 
