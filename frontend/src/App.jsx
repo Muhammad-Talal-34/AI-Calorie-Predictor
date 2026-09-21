@@ -26,7 +26,8 @@ function App() {
     setLoading(true);
     
     try {
-      const response = await fetch('http://localhost:8000/predict/', {
+      // Fixed the double {{ to a single { below
+      const response = await fetch('http://127.0.0.1:8000/predict_calories/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)

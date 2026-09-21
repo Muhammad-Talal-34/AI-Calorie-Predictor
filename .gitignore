@@ -1,11 +1,9 @@
-# Node & React
-frontend/node_modules/
-frontend/dist/
-.env
-
-# Python & Django
-backend/venv/
-backend/__pycache__/
-backend/db.sqlite3
+# Python / Django
+backend/env/
+__pycache__/
 *.pyc
-*.pyo
+db.sqlite3
+
+# React / Node
+node_modules/
+.env

@@ -20,5 +20,7 @@ from api.views import predict_calories
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('predict/', predict_calories, name='predict'),
+    
+    # This line tells Django to route the incoming request to your view
+    path('predict_calories/', predict_calories, name='predict_calories'),
 ]
